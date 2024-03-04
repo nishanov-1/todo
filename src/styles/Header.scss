@@ -1,0 +1,27 @@
+#header {
+  padding: 30px 0;
+  background: #00000079;
+  .header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    // &--nav {
+    // }
+    &--search {
+      input {
+        padding: 10px 30px;
+        border-radius: 10px;
+        outline: none;
+        border: 2px solid black;
+        background: none;
+      }
+      button {
+        padding: 10px 30px;
+        background: none;
+        color: black;
+        border-radius: 10px;
+        margin-left: 10px;
+      }
+    }
+  }
+}
